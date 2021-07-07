@@ -1,0 +1,40 @@
+.imageupload {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 650px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px lightgray;
+    background-color: white;
+    box-shadow: 3px 5px lightgray;
+    border-radius: 5px;
+}
+
+.imageupload__progress {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageupload__text {
+    height: 50px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.imageupload__button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button__upload {
+    background-color: black;
+}

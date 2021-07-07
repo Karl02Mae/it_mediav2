@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+  
+.home{
+  background-color: #e9e9e9;
+}
+
+.home__posts {
+  padding-left: 20px;
+}
+  
+.home__header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_headerLogo{
+  height: 30px;
+  object-fit: contain;
+}
+
+.home__secondHeader {
+  width: 100vw;
+  background-color: white;
+  max-width: 650px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  box-shadow: 3px 5px lightgray;
+  border-radius: 5px;
+}
